@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35d1584e-d549-46ad-a8d7-aeb35d233a55" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oficina.iml" afterPath="$PROJECT_DIR$/oficina.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DAO/BairroDAO.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BairroDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DAO/ConexaoBD.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/ConexaoBD.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,19 +24,26 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ClienteDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="100" column="58" lean-forward="false" selection-start-line="100" selection-start-column="58" selection-end-line="100" selection-end-column="58" />
-              <folding />
+              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <folding>
+                <marker date="1527623574439" expanded="true" signature="1357:1829" ph="INSERT INTO `cliente`... " />
+                <marker date="1527623574439" expanded="true" signature="2315:2424" ph="SELECT * FRO... cliente" />
+                <marker date="1527623574439" expanded="true" signature="3486:3530" ph="SELECT * FRO... cliente" />
+                <marker date="1527623574439" expanded="true" signature="4719:4742" ph="SELECT * FRO... cliente" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailClienteDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/EmailClienteDAO.java">
+      <file leaf-file-name="RuaDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/RuaDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="15">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1527572454834" expanded="true" signature="386:450" ph="INSERT INTO `rua`... " />
+                <marker date="1527572454834" expanded="true" signature="675:729" ph="SELECT * FRO... rua" />
+                <marker date="1527572454834" expanded="true" signature="1158:1204" ph="SELECT * FRO... rua" />
               </folding>
             </state>
           </provider>
@@ -46,7 +52,7 @@
       <file leaf-file-name="ClienteController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/es1/oficina/controllers/ClienteController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="420">
               <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
@@ -56,22 +62,36 @@
       <file leaf-file-name="BairroDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BairroDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="317">
+              <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
               <folding>
-                <marker date="1527572454624" expanded="true" signature="372:442" ph="INSERT INTO `bairro`... " />
-                <marker date="1527572454624" expanded="true" signature="670:727" ph="SELECT * FRO... bairro" />
-                <marker date="1527572454624" expanded="true" signature="1186:1236" ph="SELECT * FRO... bairro" />
+                <marker date="1527635647975" expanded="true" signature="372:442" ph="INSERT INTO `bairro`... " />
+                <marker date="1527635647975" expanded="true" signature="688:745" ph="SELECT * FRO... bairro" />
+                <marker date="1527635647975" expanded="true" signature="1225:1275" ph="SELECT * FRO... bairro" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConexaoBD.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CidadeDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/CidadeDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" column="116" lean-forward="true" selection-start-line="23" selection-start-column="116" selection-end-line="23" selection-end-column="116" />
+              <folding>
+                <marker date="1527572454583" expanded="true" signature="576:764" ph="INSERT INTO `cidade`... " />
+                <marker date="1527572454583" expanded="true" signature="991:1049" ph="SELECT * FRO... cidade" />
+                <marker date="1527572454583" expanded="true" signature="1708:1759" ph="SELECT * FRO... cidade" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConexaoBD.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ConexaoBD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+            <state relative-caret-position="559">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Model/TelCliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/Endereco.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/Cidade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DAO/BairroDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAO/DDDDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAO/RuaDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAO/UFDAO.java" />
@@ -167,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/main/java/DAO/ClienteDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAO/EmailClienteDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAO/ConexaoBD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAO/BairroDAO.java" />
       </list>
     </option>
   </component>
@@ -245,6 +265,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="oficina" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oficina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oficinadocaraio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oficina" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oficina" type="b2602c69:ProjectViewProjectNode" />
@@ -393,12 +422,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527568226744</updated>
-      <workItem from="1527630518211" duration="2224000" />
+      <workItem from="1527630518211" duration="3882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2224000" />
+    <option name="totallyTimeSpent" value="3882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="23" width="1435" height="806" extended-state="6" />
@@ -573,24 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/RuaDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/CidadeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DAO/DDDDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -624,14 +635,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ClienteDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="100" column="58" lean-forward="false" selection-start-line="100" selection-start-column="58" selection-end-line="100" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,26 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es1/oficina/controllers/ClienteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BairroDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <marker date="1527572454624" expanded="true" signature="372:442" ph="INSERT INTO `bairro`... " />
-            <marker date="1527572454624" expanded="true" signature="670:727" ph="SELECT * FRO... bairro" />
-            <marker date="1527572454624" expanded="true" signature="1186:1236" ph="SELECT * FRO... bairro" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="649">
@@ -714,11 +697,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/es1/oficina/controllers/ClienteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/RuaDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1527572454834" expanded="true" signature="386:450" ph="INSERT INTO `rua`... " />
+            <marker date="1527572454834" expanded="true" signature="675:729" ph="SELECT * FRO... rua" />
+            <marker date="1527572454834" expanded="true" signature="1158:1204" ph="SELECT * FRO... rua" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ClienteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <marker date="1527623574439" expanded="true" signature="1357:1829" ph="INSERT INTO `cliente`... " />
+            <marker date="1527623574439" expanded="true" signature="2315:2424" ph="SELECT * FRO... cliente" />
+            <marker date="1527623574439" expanded="true" signature="3486:3530" ph="SELECT * FRO... cliente" />
+            <marker date="1527623574439" expanded="true" signature="4719:4742" ph="SELECT * FRO... cliente" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ConexaoBD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        <state relative-caret-position="559">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BairroDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <marker date="1527635647975" expanded="true" signature="372:442" ph="INSERT INTO `bairro`... " />
+            <marker date="1527635647975" expanded="true" signature="688:745" ph="SELECT * FRO... bairro" />
+            <marker date="1527635647975" expanded="true" signature="1225:1275" ph="SELECT * FRO... bairro" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/CidadeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="116" lean-forward="true" selection-start-line="23" selection-start-column="116" selection-end-line="23" selection-end-column="116" />
+          <folding>
+            <marker date="1527572454583" expanded="true" signature="576:764" ph="INSERT INTO `cidade`... " />
+            <marker date="1527572454583" expanded="true" signature="991:1049" ph="SELECT * FRO... cidade" />
+            <marker date="1527572454583" expanded="true" signature="1708:1759" ph="SELECT * FRO... cidade" />
+          </folding>
         </state>
       </provider>
     </entry>

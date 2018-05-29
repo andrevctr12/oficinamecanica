@@ -9,9 +9,9 @@ import java.sql.SQLException;
 public class ConexaoBD {
     public static String status = "N�o conectou...";
 
-    private static Connection connection;
+    private Connection connection;
 
-    public static Connection getConexaoMySQL() {
+    public Connection getConexaoMySQL() {
 
 
         try {
@@ -62,17 +62,17 @@ public class ConexaoBD {
         }
     }
 
-    public static String statusConection() {
+    public String statusConection() {
 
         return status;
 
     }
 
-    public static boolean FecharConexao() {
+    public boolean FecharConexao() {
 
         try {
 
-            ConexaoBD.getConexaoMySQL().close();
+            this.connection.close();
 
             return true;
 
