@@ -26,8 +26,6 @@ public class ConexaoBD {
             String user = "bgk5jw196n05j02u";
             String password = "euja2x58otnh9p4a";
 
-            String jawsdbURL = "mysql://bgk5jw196n05j02u:euja2x58otnh9p4a@c9cujduvu830eexs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/drohro3nltd4slqs";
-
 
             connection = DriverManager.getConnection(url, user, password);
 

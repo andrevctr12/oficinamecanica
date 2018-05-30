@@ -1,13 +1,15 @@
 package Model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Cliente {
     private int ID;
     private String nome;
     private String cpf;
     private String Senha;
     private int end_num;
-    private String Complemento;
+    private String complemento;
     private Endereco endereco;
     private TelCliente telCliente;
     private String email;
@@ -61,11 +63,11 @@ public class Cliente {
     }
 
     public String getComplemento() {
-        return Complemento;
+        return complemento;
     }
 
     public void setComplemento(String complemento) {
-        Complemento = complemento;
+        this.complemento = complemento;
     }
 
     public Endereco getEndereco() {
@@ -94,7 +96,7 @@ public class Cliente {
                 ", cpf='" + cpf + '\'' +
                 ", Senha='" + Senha + '\'' +
                 ", end_num=" + end_num +
-                ", Complemento='" + Complemento + '\'' +
+                ", complemento='" + complemento + '\'' +
                 ", endereco=" + endereco +
                 ", telCliente=" + telCliente +
                 '}';

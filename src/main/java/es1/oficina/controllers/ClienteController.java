@@ -39,13 +39,13 @@ public class ClienteController {
        return clienteDao.BuscaClienteID(id);
 
     }
-    @RequestMapping("/{id}")
-    @DeleteMapping()
-    public void ExcluirCliente(@PathVariable("id") int id) throws SQLException {
-        ClienteDAO clienteDao = new ClienteDAO();
-        clienteDao.ExcluirCliente(id);
-
-    }
+//    @RequestMapping("/{id}")
+//    @DeleteMapping()
+//    public void ExcluirCliente(@PathVariable("id") int id) throws SQLException {
+//        ClienteDAO clienteDao = new ClienteDAO();
+//        clienteDao.ExcluirCliente(id);
+//
+//    }
 
 
 
