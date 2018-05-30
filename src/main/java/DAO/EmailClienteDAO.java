@@ -2,9 +2,12 @@ package DAO;
 
 
 
+import Model.Cliente;
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class EmailClienteDAO {
     public void CadastraEmail(String email, int idCliente) throws SQLException {
@@ -33,6 +36,13 @@ public class EmailClienteDAO {
         c.close();
 
         return email;
+    }
+
+    public void BuscaEmailLista(ArrayList<Cliente> listaCliente) throws SQLException {
+        EmailClienteDAO emailClienteDAO = new EmailClienteDAO();
+        for (Cliente cliente : listaCliente) {
+            cliente.setEmail(emailClienteDAO.BuscaEmail(cliente.getID()));
+        }
     }
 }
 

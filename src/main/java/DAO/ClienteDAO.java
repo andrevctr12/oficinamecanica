@@ -93,6 +93,7 @@ public class ClienteDAO {
             cliente.setCpf(r.getString("CPF"));
             cliente.setSenha(r.getString("Senha"));
             cliente.setEnd_num(r.getInt("número_endereço"));
+            cliente.setComplemento(r.getString("Complemento"));
 
             TelClienteDAO telClienteDAO = new TelClienteDAO();
             TelCliente telCliente= telClienteDAO.BuscaTelClienteID(r.getInt("TelCliente_TelClienteid"));
@@ -128,6 +129,7 @@ public class ClienteDAO {
             cliente.setCpf(r.getString("CPF"));
             cliente.setSenha(r.getString("Senha"));
             cliente.setEnd_num(r.getInt("número_endereço"));
+            cliente.setComplemento(r.getString("Complemento"));
 
             TelClienteDAO telClienteDAO = new TelClienteDAO();
             TelCliente telCliente= telClienteDAO.BuscaTelClienteID(r.getInt("TelCliente_TelClienteid"));
@@ -138,11 +140,21 @@ public class ClienteDAO {
             Endereco endereco = enderecoDAO.BuscaEnderecoid(r.getInt("endereçoCliente_idendereçoCliente"));
 
             cliente.setEndereco(endereco);
+            EmailClienteDAO emailClienteDAO = new EmailClienteDAO();
+            cliente.setEmail(emailClienteDAO.BuscaEmail(cliente.getID()));
+
             list.add(cliente);
         }
 
         c.close();
         return list;
 
+    }
+
+    public void ExcluirCliente(int id) throws SQLException {
+        Connection c = new ConexaoBD().getConexaoMySQL();
+        java.sql.Statement st = c.createStatement();
+        ResultSet r = st.executeQuery("DELETE FROM cliente WHERE idCliente = " + id);
+        c.close();
     }
 }
