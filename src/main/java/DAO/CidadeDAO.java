@@ -22,6 +22,9 @@ public class CidadeDAO {
         java.sql.Statement st = c.createStatement();
         st.executeQuery("INSERT INTO cidade (nomeCidade, siglaCidade, UF_siglaUF) VALUES ('"
                 + cidade.getNome() + "','" + cidade.getSiglaCidade() + "','" + cidade.getUF().getUFsigla() + "');");
+
+        c.close();
+
     }
 
     public Cidade BuscaCidade(String nome) throws SQLException {
@@ -41,6 +44,8 @@ public class CidadeDAO {
             cidade.setNome(r.getString("nomeCidade"));
             cidade.setSiglaCidade(r.getString("Siglacidade"));
         }
+
+        c.close();
         return cidade;
     }
     public Cidade BuscaCidadeID(int ID) throws SQLException {
@@ -59,6 +64,8 @@ public class CidadeDAO {
             cidade.setNome(r.getString("nomeCidade"));
             cidade.setSiglaCidade(r.getString("Siglacidade"));
         }
+
+        c.close();
         return cidade;
     }
 

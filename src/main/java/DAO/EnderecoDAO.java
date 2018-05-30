@@ -44,7 +44,7 @@ public class EnderecoDAO {    public void CadastraEnd(Endereco endereco) throws 
             " '" + endereco.getCEP() + "')");
 
 
-
+    c.close();
 
 }
 
@@ -76,8 +76,10 @@ public class EnderecoDAO {    public void CadastraEnd(Endereco endereco) throws 
 
             endereco.setCidade(cidade);
 
-
         }
+
+        c.close();
+
         return endereco;
     }
     public Endereco BuscaEnderecoByIds(int idRua, int idBairro,int idCidade) throws SQLException {
@@ -111,6 +113,9 @@ public class EnderecoDAO {    public void CadastraEnd(Endereco endereco) throws 
 
 
         }
+
+        c.close();
+
         return endereco;
     }
 

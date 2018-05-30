@@ -24,6 +24,8 @@ public class TelClienteDAO {
         java.sql.Statement st = c.createStatement();
         st.executeQuery("INSERT INTO telefone (Telefoneid, Telefone, DDD_idDDD)" +
                 " VALUES (NULL, '"+telCliente.getTelefone()+"', '"+telCliente.getDDD()+"')");
+
+        c.close();
     }
 
     public TelCliente BuscaTelClienteID(int id) throws SQLException {
@@ -39,6 +41,9 @@ public class TelClienteDAO {
             telCliente.setTelefone(r.getString("Telefone"));
             telCliente.setDDD(r.getInt("DDD_idDDD"));
         }
+
+        c.close();
+
         return telCliente;
     }
 
@@ -56,6 +61,9 @@ public class TelClienteDAO {
             telCliente.setDDD(r.getInt("DDD_idDDD"));
 
         }
+
+        c.close();
+
         return telCliente;
     }
 }

@@ -13,6 +13,9 @@ public class EmailClienteDAO {
         ResultSet r = st.executeQuery("INSERT INTO emailcliente " +
                 "(idemailCliente, emailCliente, Cliente_idCliente) " +
                 "VALUES (NULL, '" + email + "', '" + idCliente + "');");
+
+        c.close();
+
     }
     public String BuscaEmail(int idCliente) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
@@ -26,6 +29,9 @@ public class EmailClienteDAO {
 
 
         }
+
+        c.close();
+
         return email;
     }
 }

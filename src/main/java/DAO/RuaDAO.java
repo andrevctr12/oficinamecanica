@@ -16,6 +16,8 @@ public class RuaDAO {
         java.sql.Statement st = c.createStatement();
         st.executeQuery("INSERT INTO rua (nomeRua) VALUES ('"+ rua.getNomeRua() + "');");
 
+        c.close();
+
     }
 
     public Rua BuscaRua(String nomeRua) throws SQLException {
@@ -30,6 +32,9 @@ public class RuaDAO {
             rua.setNomeRua(r.getString("nomeRua"));
             rua.setID(r.getInt("idRua"));
         }
+
+        c.close();
+
         return rua;
     }
     public Rua BuscaRuaID(int id) throws SQLException {
@@ -43,6 +48,9 @@ public class RuaDAO {
             rua.setNomeRua(r.getString("nomeRua"));
             rua.setID(r.getInt("idRua"));
         }
+
+        c.close();
+
         return rua;
     }
 

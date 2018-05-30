@@ -42,6 +42,8 @@ public class ClienteDAO {
 
         emailClienteDAO.CadastraEmail(cliente.getEmail(),clienteDAO.BuscaCliente(cliente.getNome(),cliente.getCpf()).getID());
 
+        c.close();
+
     }
 
     public Cliente BuscaCliente(String nome, String CPF) throws SQLException {
@@ -71,6 +73,8 @@ public class ClienteDAO {
 
 
             cliente.setEndereco(endereco);
+
+            c.close();
 
 
         }
@@ -103,6 +107,9 @@ public class ClienteDAO {
 
             cliente.setEndereco(endereco);
         }
+
+        c.close();
+
         return cliente;
     }
 
@@ -133,6 +140,8 @@ public class ClienteDAO {
             cliente.setEndereco(endereco);
             list.add(cliente);
         }
+
+        c.close();
         return list;
 
     }

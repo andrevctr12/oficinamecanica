@@ -11,6 +11,7 @@ public class UFDAO {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
         st.executeQuery("INSERT INTO uf (siglaUF, nomeUF) VALUES ('" + uf.getUFsigla() + "', '" + uf.getNome() + "');");
+        c.close();
     }
     public UF BuscaUFSigla(String sigla) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
@@ -23,6 +24,9 @@ public class UFDAO {
             uf.setUFsigla(r.getString("siglaUF"));
             uf.setNome(r.getString("nomeUF"));
         }
+
+        c.close();
+
         return uf;
     }
     public UF BuscaUFNome(String nome) throws SQLException {
@@ -36,6 +40,9 @@ public class UFDAO {
             uf.setUFsigla(r.getString("siglaUF"));
             uf.setNome(r.getString("nomeUF"));
         }
+
+        c.close();
+
         return uf;
     }
 

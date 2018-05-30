@@ -12,6 +12,8 @@ public  class DDDDAO {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
         st.executeQuery("INSERT INTO ddd (idDDD) VALUES ('" + DDD.getDDD() + "')");
+
+        c.close();
     }
 
     public DDD BuscaDDD(int DDD) throws SQLException {
@@ -24,6 +26,9 @@ public  class DDDDAO {
             ddd = new DDD();
             ddd.setDDD(r.getInt("idDDD"));
         }
+
+        c.close();
+
         return ddd;
     }
 }
