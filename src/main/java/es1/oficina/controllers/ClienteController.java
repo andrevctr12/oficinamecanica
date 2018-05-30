@@ -1,6 +1,7 @@
 package es1.oficina.controllers;
 
 import DAO.ClienteDAO;
+import DAO.EmailClienteDAO;
 import Model.Cliente;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -17,6 +18,7 @@ public class ClienteController {
 
         ClienteDAO clienteDAO = new ClienteDAO();
         ArrayList<Cliente> listaCliente = clienteDAO.BuscaLista();
+
         return listaCliente;
     }
 
