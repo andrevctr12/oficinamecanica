@@ -150,4 +150,11 @@ public class ClienteDAO {
         return list;
 
     }
+
+    public void ExcluirCliente(int id) throws SQLException {
+        Connection c = new ConexaoBD().getConexaoMySQL();
+        java.sql.Statement st = c.createStatement();
+        ResultSet r = st.executeQuery("DELETE FROM cliente WHERE idCliente = " + id);
+        c.close();
+    }
 }
