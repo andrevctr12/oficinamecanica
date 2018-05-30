@@ -30,12 +30,22 @@ public class ClienteDAO {
         }
 
         cliente.getTelCliente().setID(telClienteDAO.BuscaTelCliente(cliente.getTelCliente().getTelefone()).getID());
-        st.executeQuery("INSERT INTO cliente (idCliente, nomeCliente, CPF," +
-                "TelCliente_TelClienteid, endereçoCliente_idendereçoCliente, Complemento, número_endereço, Senha)" +
-                "VALUES (NULL, '"+cliente.getNome()+"', '"+cliente.getCpf() +"', '"+cliente.getTelCliente().getID()+"'," +
-                " '"+cliente.getEndereco().getId()+"', '"+cliente.getComplemento()+"'," +
-                " '"+cliente.getEnd_num()+"', '"+cliente.getSenha()+"')");
 
+
+        if (cliente.getComplemento() == null)
+        {
+            st.executeQuery("INSERT INTO cliente (idCliente, nomeCliente, CPF," +
+                    "TelCliente_TelClienteid, endereçoCliente_idendereçoCliente, Complemento, número_endereço, Senha)" +
+                    "VALUES (NULL, '" + cliente.getNome() + "', '" + cliente.getCpf() + "', '" + cliente.getTelCliente().getID() + "'," +
+                    " '" + cliente.getEndereco().getId() + "',NULL," +
+                    " '" + cliente.getEnd_num() + "', '" + cliente.getSenha() + "')");
+        }else {
+            st.executeQuery("INSERT INTO cliente (idCliente, nomeCliente, CPF," +
+                    "TelCliente_TelClienteid, endereçoCliente_idendereçoCliente, Complemento, número_endereço, Senha)" +
+                    "VALUES (NULL, '" + cliente.getNome() + "', '" + cliente.getCpf() + "', '" + cliente.getTelCliente().getID() + "'," +
+                    " '" + cliente.getEndereco().getId() + "', '" + cliente.getComplemento() + "'," +
+                    " '" + cliente.getEnd_num() + "', '" + cliente.getSenha() + "')");
+        }
         EmailClienteDAO emailClienteDAO = new EmailClienteDAO();
 
         ClienteDAO clienteDAO = new ClienteDAO();
