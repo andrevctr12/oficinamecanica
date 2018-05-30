@@ -14,16 +14,19 @@ public class ClienteController {
 
     @GetMapping(produces = "application/json")
     public @ResponseBody ArrayList<Cliente> ListaCliente() throws SQLException {
-        ArrayList<Cliente> listaCliente = new ArrayList<Cliente>();
+
         ClienteDAO clienteDAO = new ClienteDAO();
-        listaCliente = clienteDAO.BuscaLista();
+        ArrayList<Cliente> listaCliente = clienteDAO.BuscaLista();
         return listaCliente;
     }
 
     @PostMapping()
     public void CadastraCliente(@RequestBody Cliente cliente) throws SQLException {
         ClienteDAO clienteDAO = new ClienteDAO();
-        clienteDAO.CadastraCliente(cliente);
+
+        if(clienteDAO.BuscaCliente(cliente.getNome(),cliente.getCpf()) == null){
+            clienteDAO.CadastraCliente(cliente);
+        }
     }
 
     @RequestMapping("/{id}")
