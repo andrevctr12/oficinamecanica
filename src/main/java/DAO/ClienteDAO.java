@@ -30,8 +30,8 @@ public class ClienteDAO {
         }
 
         cliente.getTelCliente().setID(telClienteDAO.BuscaTelCliente(cliente.getTelCliente().getTelefone()).getID());
-        st.executeQuery("INSERT INTO `cliente` (`idCliente`, `nomeCliente`, `CPF`," +
-                "`TelCliente_TelClienteid`, `endereçoCliente_idendereçoCliente`, `Complemento`, `número_endereço`, `Senha`)" +
+        st.executeQuery("INSERT INTO cliente (idCliente, nomeCliente, CPF," +
+                "TelCliente_TelClienteid, endereçoCliente_idendereçoCliente, Complemento, número_endereço, Senha)" +
                 "VALUES (NULL, '"+cliente.getNome()+"', '"+cliente.getCpf() +"', '"+cliente.getTelCliente().getID()+"'," +
                 " '"+cliente.getEndereco().getId()+"', '"+cliente.getComplemento()+"'," +
                 " '"+cliente.getEnd_num()+"', '"+cliente.getSenha()+"')");
@@ -47,8 +47,8 @@ public class ClienteDAO {
     public Cliente BuscaCliente(String nome, String CPF) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        ResultSet r = st.executeQuery("SELECT * FROM `cliente` WHERE `nomeCliente` LIKE '" + nome +"'" +
-                "AND `CPF` like '"+ CPF +"'");
+        ResultSet r = st.executeQuery("SELECT * FROM cliente WHERE nomeCliente LIKE '" + nome +"'" +
+                "AND CPF like '"+ CPF +"'");
 
         Cliente cliente = null;
         while (r.next())
@@ -79,7 +79,7 @@ public class ClienteDAO {
     public Cliente BuscaClienteID(int id) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        ResultSet r = st.executeQuery("SELECT * FROM `cliente` WHERE `idCliente` = " + id);
+        ResultSet r = st.executeQuery("SELECT * FROM cliente WHERE idCliente = " + id);
 
         Cliente cliente = null;
         while (r.next()) {
@@ -109,7 +109,7 @@ public class ClienteDAO {
     public ArrayList<Cliente> BuscaLista() throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        ResultSet r = st.executeQuery("SELECT * FROM `cliente`");
+        ResultSet r = st.executeQuery("SELECT * FROM cliente");
         ArrayList<Cliente> list = new ArrayList<Cliente>();
 
         Cliente cliente = null;

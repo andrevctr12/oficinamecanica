@@ -2,37 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35d1584e-d549-46ad-a8d7-aeb35d233a55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mariadb_jdbc_mariadb_java_client_2_2_5.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jstl_jstl_api_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_35.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_web_jstl_impl_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DAO/BairroDAO.class" afterPath="$PROJECT_DIR$/target/classes/DAO/BairroDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DAO/CidadeDAO.class" afterPath="$PROJECT_DIR$/target/classes/DAO/CidadeDAO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DAO/ClienteDAO.class" afterPath="$PROJECT_DIR$/target/classes/DAO/ClienteDAO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DAO/ConexaoBD.class" afterPath="$PROJECT_DIR$/target/classes/DAO/ConexaoBD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DAO/DDDDAO.class" afterPath="$PROJECT_DIR$/target/classes/DAO/DDDDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DAO/EmailClienteDAO.class" afterPath="$PROJECT_DIR$/target/classes/DAO/EmailClienteDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DAO/EnderecoDAO.class" afterPath="$PROJECT_DIR$/target/classes/DAO/EnderecoDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DAO/RuaDAO.class" afterPath="$PROJECT_DIR$/target/classes/DAO/RuaDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DAO/TelClienteDAO.class" afterPath="$PROJECT_DIR$/target/classes/DAO/TelClienteDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DAO/UFDAO.class" afterPath="$PROJECT_DIR$/target/classes/DAO/UFDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Bairro.class" afterPath="$PROJECT_DIR$/target/classes/Model/Bairro.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Cidade.class" afterPath="$PROJECT_DIR$/target/classes/Model/Cidade.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Cliente.class" afterPath="$PROJECT_DIR$/target/classes/Model/Cliente.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/DDD.class" afterPath="$PROJECT_DIR$/target/classes/Model/DDD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Email.class" afterPath="$PROJECT_DIR$/target/classes/Model/Email.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Endereco.class" afterPath="$PROJECT_DIR$/target/classes/Model/Endereco.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Rua.class" afterPath="$PROJECT_DIR$/target/classes/Model/Rua.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/TelCliente.class" afterPath="$PROJECT_DIR$/target/classes/Model/TelCliente.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/UF.class" afterPath="$PROJECT_DIR$/target/classes/Model/UF.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/es1/oficina/Boot.class" afterPath="$PROJECT_DIR$/target/classes/es1/oficina/Boot.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/es1/oficina/controllers/ClienteController.class" afterPath="$PROJECT_DIR$/target/classes/es1/oficina/controllers/ClienteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/es1/oficina/controllers/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/es1/oficina/controllers/HomeController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oficina.iml" afterPath="$PROJECT_DIR$/oficina.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DAO/ConexaoBD.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/ConexaoBD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DAO/BairroDAO.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BairroDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DAO/CidadeDAO.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/CidadeDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DAO/ClienteDAO.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/ClienteDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DAO/DDDDAO.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/DDDDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DAO/EmailClienteDAO.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/EmailClienteDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DAO/EnderecoDAO.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/EnderecoDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DAO/RuaDAO.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/RuaDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DAO/TelClienteDAO.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/TelClienteDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DAO/UFDAO.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/UFDAO.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,16 +50,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClienteDAO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClienteDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ClienteDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="110" column="52" lean-forward="true" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
+            <state relative-caret-position="378">
+              <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
               <folding>
-                <marker date="1527638305308" expanded="true" signature="1357:1829" ph="INSERT INTO `cliente`... " />
-                <marker date="1527638305308" expanded="true" signature="2315:2424" ph="SELECT * FRO... cliente" />
-                <marker date="1527638305308" expanded="true" signature="3486:3530" ph="SELECT * FRO... cliente" />
-                <marker date="1527638305308" expanded="true" signature="4719:4742" ph="SELECT * FRO... cliente" />
+                <marker date="1527638856917" expanded="true" signature="1357:1389" ph="INSERT INTO `cliente`... " />
+                <marker date="1527638856917" expanded="true" signature="2383:2400" ph="SELECT * FRO... cliente" />
+                <marker date="1527638856917" expanded="true" signature="2383:3247" ph="{...}" />
+                <marker date="1527638856917" expanded="true" signature="3310:4474" ph="{...}" />
+                <marker date="1527638856917" expanded="true" signature="3462:3502" ph="SELECT * FRO... cliente" />
+                <marker date="1527638856917" expanded="true" signature="4539:5637" ph="{...}" />
+                <marker date="1527638856917" expanded="true" signature="4691:4712" ph="SELECT * FRO... cliente" />
+                <marker date="1527638856917" expanded="false" signature="4763:4772" ph="&lt;~&gt;" />
               </folding>
             </state>
           </provider>
@@ -77,9 +82,36 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="60">
+              <caret line="4" column="116" lean-forward="false" selection-start-line="4" selection-start-column="100" selection-end-line="4" selection-end-column="116" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bairro.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Bairro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UFDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/UFDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1527638844842" expanded="true" signature="352:364" ph="INSERT INTO `uf`... " />
+                <marker date="1527638844842" expanded="true" signature="352:443" ph="INSERT INTO uf... " />
+                <marker date="1527638844842" expanded="true" signature="667:715" ph="SELECT * FRO... uf" />
+                <marker date="1527638844842" expanded="true" signature="1140:1189" ph="SELECT * FRO... uf" />
+                <marker date="1527638844842" expanded="true" signature="1169:1189" ph="SELECT * FRO... uf" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,34 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSourceProperties.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.3.RELEASE/spring-boot-autoconfigure-1.5.3.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.class">
+      <file leaf-file-name="DataSourceProperties.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.3.RELEASE/spring-boot-autoconfigure-1.5.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="144" column="16" lean-forward="false" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
-              <folding>
-                <element signature="e#4860#4861#0" expanded="true" />
-                <element signature="e#4890#4891#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Endereco.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Endereco.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rua.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Rua.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="-86">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -165,6 +174,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>`</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -269,7 +283,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oficina" type="b2602c69:ProjectViewProjectNode" />
@@ -423,16 +437,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527568226744</updated>
-      <workItem from="1527630518211" duration="6386000" />
+      <workItem from="1527630518211" duration="8892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6386000" />
+    <option name="totallyTimeSpent" value="8892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="23" width="1435" height="806" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -448,9 +461,10 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22684853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22684853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -462,7 +476,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,17 +485,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/Model/Cliente.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -539,9 +547,9 @@
         <state relative-caret-position="317">
           <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding>
-            <marker date="1527635647975" expanded="true" signature="372:442" ph="INSERT INTO `bairro`... " />
-            <marker date="1527635647975" expanded="true" signature="688:745" ph="SELECT * FRO... bairro" />
-            <marker date="1527635647975" expanded="true" signature="1225:1275" ph="SELECT * FRO... bairro" />
+            <marker date="1527638759502" expanded="true" signature="372:384" ph="INSERT INTO `bairro`... " />
+            <marker date="1527638759502" expanded="true" signature="688:745" ph="SELECT * FRO... bairro" />
+            <marker date="1527638759502" expanded="true" signature="1239:1267" ph="SELECT * FRO... bairro" />
           </folding>
         </state>
       </provider>
@@ -551,9 +559,9 @@
         <state relative-caret-position="-138">
           <caret line="23" column="116" lean-forward="true" selection-start-line="23" selection-start-column="116" selection-end-line="23" selection-end-column="116" />
           <folding>
-            <marker date="1527572454583" expanded="true" signature="576:764" ph="INSERT INTO `cidade`... " />
-            <marker date="1527572454583" expanded="true" signature="991:1049" ph="SELECT * FRO... cidade" />
-            <marker date="1527572454583" expanded="true" signature="1708:1759" ph="SELECT * FRO... cidade" />
+            <marker date="1527638860203" expanded="true" signature="576:588" ph="INSERT INTO `cidade`... " />
+            <marker date="1527638860203" expanded="true" signature="991:1049" ph="SELECT * FRO... cidade" />
+            <marker date="1527638860203" expanded="true" signature="1718:1747" ph="SELECT * FRO... cidade" />
           </folding>
         </state>
       </provider>
@@ -563,8 +571,8 @@
         <state relative-caret-position="60">
           <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding>
-            <marker date="1527572454525" expanded="true" signature="359:418" ph="INSERT INTO `ddd`... " />
-            <marker date="1527572454525" expanded="true" signature="634:669" ph="SELECT * FRO... ddd" />
+            <marker date="1527638854129" expanded="true" signature="359:371" ph="INSERT INTO `ddd`... " />
+            <marker date="1527638854129" expanded="true" signature="659:661" ph="SELECT * FRO... ddd" />
           </folding>
         </state>
       </provider>
@@ -575,8 +583,8 @@
           <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1527623785892" expanded="true" signature="364:540" ph="INSERT INTO `emailcliente`... " />
-            <marker date="1527623785892" expanded="true" signature="767:824" ph="SELECT * FRO... emailcliente" />
+            <marker date="1527638852354" expanded="true" signature="364:376" ph="INSERT INTO `emailcliente`... " />
+            <marker date="1527638852354" expanded="true" signature="809:812" ph="SELECT * FRO... emailcliente" />
           </folding>
         </state>
       </provider>
@@ -586,19 +594,6 @@
         <state relative-caret-position="480">
           <caret line="43" column="45" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/UFDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1527572454474" expanded="true" signature="352:449" ph="INSERT INTO `uf`... " />
-            <marker date="1527572454474" expanded="true" signature="673:723" ph="SELECT * FRO... uf" />
-            <marker date="1527572454474" expanded="true" signature="1148:1201" ph="SELECT * FRO... uf" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,9 +610,9 @@
         <state relative-caret-position="15">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <marker date="1527572454834" expanded="true" signature="386:450" ph="INSERT INTO `rua`... " />
-            <marker date="1527572454834" expanded="true" signature="675:729" ph="SELECT * FRO... rua" />
-            <marker date="1527572454834" expanded="true" signature="1158:1204" ph="SELECT * FRO... rua" />
+            <marker date="1527638848195" expanded="true" signature="386:398" ph="INSERT INTO `rua`... " />
+            <marker date="1527638848195" expanded="true" signature="675:729" ph="SELECT * FRO... rua" />
+            <marker date="1527638848195" expanded="true" signature="1169:1196" ph="SELECT * FRO... rua" />
           </folding>
         </state>
       </provider>
@@ -634,14 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Bairro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -712,14 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
@@ -747,14 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ConexaoBD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -765,13 +736,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ClienteDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="110" column="52" lean-forward="true" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
+        <state relative-caret-position="378">
+          <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
           <folding>
-            <marker date="1527638305308" expanded="true" signature="1357:1829" ph="INSERT INTO `cliente`... " />
-            <marker date="1527638305308" expanded="true" signature="2315:2424" ph="SELECT * FRO... cliente" />
-            <marker date="1527638305308" expanded="true" signature="3486:3530" ph="SELECT * FRO... cliente" />
-            <marker date="1527638305308" expanded="true" signature="4719:4742" ph="SELECT * FRO... cliente" />
+            <marker date="1527638856917" expanded="true" signature="1357:1389" ph="INSERT INTO `cliente`... " />
+            <marker date="1527638856917" expanded="true" signature="2383:2400" ph="SELECT * FRO... cliente" />
+            <marker date="1527638856917" expanded="true" signature="2383:3247" ph="{...}" />
+            <marker date="1527638856917" expanded="true" signature="3310:4474" ph="{...}" />
+            <marker date="1527638856917" expanded="true" signature="3462:3502" ph="SELECT * FRO... cliente" />
+            <marker date="1527638856917" expanded="true" signature="4539:5637" ph="{...}" />
+            <marker date="1527638856917" expanded="true" signature="4691:4712" ph="SELECT * FRO... cliente" />
+            <marker date="1527638856917" expanded="false" signature="4763:4772" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.3.RELEASE/spring-boot-autoconfigure-1.5.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="116" lean-forward="false" selection-start-line="4" selection-start-column="100" selection-end-line="4" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Bairro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/UFDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1527638844842" expanded="true" signature="352:364" ph="INSERT INTO `uf`... " />
+            <marker date="1527638844842" expanded="true" signature="352:443" ph="INSERT INTO uf... " />
+            <marker date="1527638844842" expanded="true" signature="667:715" ph="SELECT * FRO... uf" />
+            <marker date="1527638844842" expanded="true" signature="1140:1189" ph="SELECT * FRO... uf" />
+            <marker date="1527638844842" expanded="true" signature="1169:1189" ph="SELECT * FRO... uf" />
           </folding>
         </state>
       </provider>

@@ -10,12 +10,12 @@ public class UFDAO {
     public void CadastraUF(UF uf) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        st.executeQuery("INSERT INTO `uf` (`siglaUF`, `nomeUF`) VALUES ('" + uf.getUFsigla() + "', '" + uf.getNome() + "');");
+        st.executeQuery("INSERT INTO uf (siglaUF, nomeUF) VALUES ('" + uf.getUFsigla() + "', '" + uf.getNome() + "');");
     }
     public UF BuscaUFSigla(String sigla) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        ResultSet r = st.executeQuery("SELECT * FROM `uf` where siglaUF = '" + sigla + "'");
+        ResultSet r = st.executeQuery("SELECT * FROM uf where siglaUF = '" + sigla + "'");
 
         UF uf = null;
         while (r.next()) {
@@ -28,7 +28,7 @@ public class UFDAO {
     public UF BuscaUFNome(String nome) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        ResultSet r = st.executeQuery("SELECT * FROM `uf` WHERE `nomeUF` LIKE '" + nome + "'");
+        ResultSet r = st.executeQuery("SELECT * FROM uf WHERE nomeUF LIKE '" + nome + "'");
 
         UF uf = null;
         while (r.next()) {

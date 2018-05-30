@@ -11,13 +11,13 @@ public  class DDDDAO {
     public void CadastraDDD(DDD DDD) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        st.executeQuery("INSERT INTO `ddd` (`idDDD`) VALUES ('" + DDD.getDDD() + "')");
+        st.executeQuery("INSERT INTO ddd (idDDD) VALUES ('" + DDD.getDDD() + "')");
     }
 
     public DDD BuscaDDD(int DDD) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        ResultSet r = st.executeQuery("SELECT * FROM `ddd` WHERE `idDDD` =" + DDD);
+        ResultSet r = st.executeQuery("SELECT * FROM ddd WHERE idDDD =" + DDD);
 
         DDD ddd = null;
         while (r.next()) {

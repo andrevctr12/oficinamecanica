@@ -22,14 +22,14 @@ public class TelClienteDAO {
 
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        st.executeQuery("INSERT INTO `telefone` (`Telefoneid`, `Telefone`, `DDD_idDDD`)" +
+        st.executeQuery("INSERT INTO telefone (Telefoneid, Telefone, DDD_idDDD)" +
                 " VALUES (NULL, '"+telCliente.getTelefone()+"', '"+telCliente.getDDD()+"')");
     }
 
     public TelCliente BuscaTelClienteID(int id) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        ResultSet r = st.executeQuery("SELECT * FROM `telefone` WHERE `Telefoneid` = " + id);
+        ResultSet r = st.executeQuery("SELECT * FROM telefone WHERE Telefoneid = " + id);
 
         TelCliente telCliente = null;
         while (r.next())
@@ -45,7 +45,7 @@ public class TelClienteDAO {
     public TelCliente BuscaTelCliente(String tel) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        ResultSet r = st.executeQuery("SELECT * FROM `telefone` WHERE `Telefone` like " + tel);
+        ResultSet r = st.executeQuery("SELECT * FROM telefone WHERE Telefone like " + tel);
 
         TelCliente telCliente = null;
         while (r.next())

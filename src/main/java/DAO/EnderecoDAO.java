@@ -38,8 +38,8 @@ public class EnderecoDAO {    public void CadastraEnd(Endereco endereco) throws 
     endereco.getCidade().setId(cidadeDAO.BuscaCidade(endereco.getCidade().getNome()).getId());
 
 
-    st.executeQuery("INSERT INTO `endereçocliente` (`idendereçoCliente`, `Bairro_idBairro`, `Rua_idRua`, `Cidade_idCidade`" +
-            ", `CEP`) VALUES " +
+    st.executeQuery("INSERT INTO endereçocliente (idendereçoCliente, Bairro_idBairro, Rua_idRua, Cidade_idCidade" +
+            ", CEP) VALUES " +
             "(NULL, '" + endereco.getBairro().getID() + "', '" + endereco.getRua().getID() + "', '" + endereco.getCidade().getId() + "'," +
             " '" + endereco.getCEP() + "')");
 
@@ -54,7 +54,7 @@ public class EnderecoDAO {    public void CadastraEnd(Endereco endereco) throws 
     public Endereco BuscaEnderecoid(int ID) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        ResultSet r = st.executeQuery("SELECT * FROM `endereçocliente` WHERE `idendereçoCliente` =  "+ ID+" ");
+        ResultSet r = st.executeQuery("SELECT * FROM endereçocliente WHERE idendereçoCliente =  "+ ID+" ");
         Endereco endereco = null;
         while (r.next())
         {
@@ -83,9 +83,9 @@ public class EnderecoDAO {    public void CadastraEnd(Endereco endereco) throws 
     public Endereco BuscaEnderecoByIds(int idRua, int idBairro,int idCidade) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        ResultSet r = st.executeQuery("SELECT * FROM `endereçocliente` WHERE " +
-                "`Bairro_idBairro` = "+idBairro+" AND `Rua_idRua` = "+idRua+" AND " +
-                "`Cidade_idCidade` = "+idCidade+"");
+        ResultSet r = st.executeQuery("SELECT * FROM endereçocliente WHERE " +
+                "Bairro_idBairro = "+idBairro+" AND Rua_idRua = "+idRua+" AND " +
+                "Cidade_idCidade = "+idCidade+"");
         Endereco endereco = null;
         while (r.next())
         {

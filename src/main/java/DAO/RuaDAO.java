@@ -14,14 +14,14 @@ public class RuaDAO {
     public void CadastraRua(Rua rua) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        st.executeQuery("INSERT INTO `rua` (`nomeRua`) VALUES ('"+ rua.getNomeRua() + "');");
+        st.executeQuery("INSERT INTO rua (nomeRua) VALUES ('"+ rua.getNomeRua() + "');");
 
     }
 
     public Rua BuscaRua(String nomeRua) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        ResultSet r = st.executeQuery("SELECT * FROM `rua` where nomeRua like '"+ nomeRua +"'");
+        ResultSet r = st.executeQuery("SELECT * FROM rua where nomeRua like '"+ nomeRua +"'");
 
         Rua rua = null;
         while (r.next())
@@ -35,7 +35,7 @@ public class RuaDAO {
     public Rua BuscaRuaID(int id) throws SQLException {
         Connection c = new ConexaoBD().getConexaoMySQL();
         java.sql.Statement st = c.createStatement();
-        ResultSet r = st.executeQuery("SELECT * FROM `rua` where idRua = '" + id + "'");
+        ResultSet r = st.executeQuery("SELECT * FROM rua where idRua = '" + id + "'");
 
         Rua rua = null;
         while (r.next()) {
